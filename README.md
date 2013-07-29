@@ -1,13 +1,12 @@
-#Landscaping With Frontend Development Tools
+#各式 Web 前端開發工具整理
+
+這裡收集了一系列各式各樣與「網頁前端」相關的開發工具、函式庫與參考文件，這些工具僅針對一般桌上型/筆記型電腦的顯示環境為主 (不含平板或手機等行動版網頁相關工具)。
 
 
-An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i.e. does not include tablet or phone yet) web development
+##程式碼編寫工具 (Coding Tools)
 
 
-##Coding Tools
-
-
-######Workflow/Builds/Assemblers
+######工作流程/建置/組合 (Workflow/Builds/Assemblers)
 
 * [lumbar](http://walmartlabs.github.io/lumbar/)
 * [brunch](http://brunch.io/)
@@ -25,7 +24,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Browser Package Managers (checkout: [Front-End Package Manager Comparison](https://github.com/wilmoore/frontend-packagers))
+######瀏覽器套件管理員 (Browser Package Managers) (參見: [Front-End Package Manager Comparison](https://github.com/wilmoore/frontend-packagers))
 
 * [bower](http://bower.io)
 * [component](https://github.com/component/component)
@@ -34,12 +33,12 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Base/Boilerplate
+######CSS 基底樣式/樣板
 * [normalize.css](http://necolas.github.com/normalize.css/)
 
 ---
 
-######CSS Frameworks ([Comparison](http://responsive.vermilion.com/compare.php) or [Front-end CSS frameworks](http://usablica.github.com/front-end-frameworks/compare.html)) 
+######CSS 框架 (參見: [框架比較](http://responsive.vermilion.com/compare.php) 或 [前端 CSS 框架](http://usablica.github.com/front-end-frameworks/compare.html)) 
 
 * [foundation](http://foundation.zurb.com/)
 * [bootstrap](http://twitter.github.com/bootstrap/)
@@ -58,7 +57,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######HTML Base/Boilerplate
+######HTML 基底結構/樣板
 
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
 * [Rock Hammer](http://stuffandnonsense.co.uk/projects/rock-hammer/)
@@ -67,7 +66,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######DOM Scripting (FYI dojo, yui, ext, qooxdoo all have DOM tools)
+######操作 DOM 的相關函式庫 (FYI: dojo, yui, ext, qooxdoo 都有自己的 DOM 工具)
 * [jQuery](http://jquery.com/)
 	*  [jQuery++](http://jquerypp.com/)
 * [zepto](http://zeptojs.com/)
@@ -82,7 +81,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 	
 ---
 
-######JS Helpers
+######各式 JavaScript 輔助工具/函式庫
 * [lo-dash](http://lodash.com/)
 * [lazy.js](http://danieltao.com/lazy.js/)
 * [string.js](http://stringjs.com/)
@@ -107,13 +106,13 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Key Helpers
+######鍵盤控制相關工具/函式庫
 * [keys.js](https://github.com/bitwalker/keys.js)
 * [mousestrap](http://craig.is/killing/mice)
 
 ---
 
-######Event (mouse/touch/pointer) Helpers
+######事件相關輔助工具/函式庫 (mouse/touch/pointer)
 * [pointer.js](https://github.com/mozilla/pointer.js)
 * [thumbs.js](http://mwbrooks.github.io/thumbs.js/)
 * [Hammer.js](https://github.com/EightMedia/hammer.js)
@@ -122,13 +121,13 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Helpers
+######CSS 關輔助工具/函式庫
 * [-prefix-free](http://leaverou.github.io/prefixfree/)
 * [CSScomb](http://csscomb.com)
 
 ---
 
-######Module/Script Loaders ([Javascript Loaders Comparison](https://spreadsheets.google.com/spreadsheet/lv?key=0Aqln2akPWiMIdERkY3J2OXdOUVJDTkNSQ2ZsV3hoWVE&f=true&noheader=true&gid=2))
+######模組與指令碼載入工具/函式庫 (參見: [Javascript Loaders Comparison](https://spreadsheets.google.com/spreadsheet/lv?key=0Aqln2akPWiMIdERkY3J2OXdOUVJDTkNSQ2ZsV3hoWVE&f=true&noheader=true&gid=2))
 * [require.js](http://requirejs.org/)
 	* [almond](https://github.com/jrburke/almond)
 * [cajon](https://github.com/requirejs/cajon)
@@ -148,7 +147,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Templates ([template chooser](http://garann.github.io/template-chooser))
+######JavaScript 範本引擎 ([template chooser](http://garann.github.io/template-chooser))
 * [handlebars](http://handlebarsjs.com/)
 * [pure](http://beebole.com/pure/)
 * [dust](http://akdubya.github.io/dustjs/)
@@ -185,7 +184,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Test Runners
+######測試執行工具 (Test Runners)
 
 * [testem](https://github.com/airportyh/testem)
 * [Karma](http://karma-runner.github.io/0.8/index.html)
@@ -193,13 +192,13 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######User Automated Testing
+######使用者自動化測試工具 (User Automated Testing)
 
 * [casperJS](http://casperjs.org/)
 
 ---
 
-######Testing Frameworks
+######測試框架 (Testing Frameworks)
 
 * [mocha](http://visionmedia.github.com/mocha/)
 * [buster.js](http://busterjs.org/)
@@ -209,7 +208,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Assertion Libraries
+######其他測試函式庫 (Assertion Libraries)
 
 * [chai](http://chaijs.com/)
 * [should](https://github.com/visionmedia/should.js)
@@ -217,7 +216,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Remote DOM and JS Testing
+######遠端 DOM 與 JS 測試工具
 * [browserstack](http://www.browserstack.com/)
 * [browserling/testling](https://browserling.com/)
 * [selenium](http://seleniumhq.org/)
@@ -225,14 +224,14 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######JS Performance Testing
+######JavaScript 效能檢測工具 (JS Performance Testing)
 
 * [benchmark.js](http://benchmarkjs.com/)
 * [jsPerf — JavaScript performance playground](http://jsperf.com/)
 
 ---
 
-######JS Auto Documentation Tools
+######JavaScript 自動化文件工具 (JS Auto Documentation Tools)
 * [yuiDoc](http://yui.github.com/yuidoc/)
 * [docco](http://jashkenas.github.com/docco/)
 	* [docco-husky](https://github.com/mbrevoort/docco-husky)
@@ -244,13 +243,13 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Auto Documentation Tools
+######CSS 自動化文件工具 (CSS Auto Documentation Tools)
 * [kss](https://github.com/kneath/kss)
 * [styledocco/](http://jacobrask.github.com/styledocco/)
 
 ---
 
-######JS Quality Validators
+######JavaScript 程式碼品質驗證工具 (JS Quality Validators)
 * [jslint](http://www.jslint.com/)
 * [jshint](http://www.jshint.com/)
 * [JSLint Error Explanations](http://jslinterrors.com/)
@@ -258,31 +257,31 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Quality Validators
+######CSS 品質驗證工具 (CSS Quality Validators)
 * [csslint](http://csslint.net/)
 * [recess](http://twitter.github.com/recess)
 
 ---
 
-######HTML Quality Validators
+######HTML 品質驗證工具 (HTML Quality Validators)
 * [html-inspector](https://github.com/philipwalton/html-inspector)
 
 ---
 
-######JS Optimizer/Minification/Compression Tools
+######JavaScript 最佳化/最小化/壓縮工具 (JS Optimizer/Minification/Compression Tools)
 * [google closure compiler](https://developers.google.com/closure/compiler/)
 * [uglifyJS](https://github.com/mishoo/UglifyJS)
 * [Esprima](http://esprima.org/index.html)
 
 ---
 
-######CSS Optimizer/Minification/Compression Tools
+######CSS 最佳化/最小化/壓縮工具 (CSS Optimizer/Minification/Compression Tools)
 * [ycssmin](https://github.com/yui/ycssmin)
 * [CSSO](http://css.github.io/csso/)
 
 ---
 
-######Languages Compiling to CSS
+######CSS 前置處理器 (Languages Compiling to CSS)
 * [Sass](http://sass-lang.com/)
 	* [compass](http://compass-style.org)
 	* [inuit.css](https://github.com/csswizardry/inuit.css)
@@ -294,7 +293,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 	* [LESS Elements](http://lesselements.com/): Mixins library for LESS
 	* [Semantic.gs](http://semantic.gs/): Semantic CSS grid system
 
-######Languages Compiling to JS ([http://altjs.org/](http://altjs.org/))
+######JavaScript 前置處理器 (Languages Compiling to JS) ([http://altjs.org/](http://altjs.org/))
 * [coffeeScript](http://coffeescript.org/)
 * [dart](http://www.dartlang.org/)
 * [roy](https://github.com/pufuwozu/roy)
@@ -303,7 +302,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Languages Compiling to HTML
+######HTML 前置處理器 (Languages Compiling to HTML)
 * [jade](http://jade-lang.com/)
 * [haml](https://github.com/haml/haml)
 * [markdown](http://daringfireball.net/projects/markdown/)
@@ -311,7 +310,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Front End Application Structure (somewhat backend agnostic)
+######純前端應用程式框架 (Front End Application Structure) (somewhat backend agnostic)
 * [backbone](http://backbonejs.org/)
 	* [marionette](http://marionettejs.com)
 	* [chaplin](http://chaplinjs.github.com/)
@@ -330,7 +329,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Front End Application Structure (with backend opinions)
+######包含後端技術的前端應用程式框架 (Front End Application Structure) (with backend opinions)
 * [derby](http://derbyjs.com/) (requires NodeJS)
 * [flatiron](http://flatironjs.org/) (requires NodeJS)
 * [batman.js](http://batmanjs.org/) (requires NodeJS)
@@ -339,14 +338,14 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######Full Stack Application Structure/Frameworks
+######整合式應用程式框架 (Full Stack Application Structure/Frameworks)
 * [tower.js](http://towerjs.org/) (requires NodeJS)
 * [wakanda](http://www.wakanda.org/)
 * [meteor](http://www.meteor.com/)
 
 ---
 
-######Frontend JavaScript Frameworks (aka Kitchen Sink Solutions, tools below provide a mixture of the things above)
+######前端 JavaScript 框架 (Frontend JavaScript Frameworks) (aka Kitchen Sink Solutions, tools below provide a mixture of the things above)
 * [YUI3](http://yuilibrary.com/projects/yui3/)
 * [dojo](http://dojotoolkit.org/extjs)
 * [extJS](http://www.sencha.com/products/extjs/)
@@ -354,10 +353,10 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 * [google closure](https://developers.google.com/closure/)
 
 
-##Reference/Guide/Polyfill/Generator Tools
+##參考資料/教學手冊/相容性套件/程式產生器等相關工具 (Reference/Guide/Polyfill/Generator Tools)
 
 
-######Browser X Supports X
+######瀏覽器相容性工具/文件 (Browser X Supports X)
 * [http://caniuse.com/](http://caniuse.com/)
 * [http://html5please.com/](http://html5please.com/)
 * [http://html5readiness.com/](http://html5readiness.com/)
@@ -376,7 +375,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######HTML Language References & Polyfills
+######HTML 語言參考 & 相容性工具 (HTML Language References & Polyfills)
 * [HTML5 A technical specification for Web developers](http://developers.whatwg.org/)
 * [HTML Living Standard](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://www.w3.org/TR/html5/)
@@ -388,7 +387,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######HTML5 & Friends Specs/Ref & Polyfills
+######HTML5 相關規格/參考資料與相容性套件 (HTML5 & Friends Specs/Ref & Polyfills)
 * [webbrowsercompatibility.com](http://www.webbrowsercompatibility.com/)
 * [HTML5 & Friends, from Mozilla](https://developer.mozilla.org/en-US/docs/HTML/HTML5)
 * [html5rocks](http://www.html5rocks.com/en/)
@@ -410,7 +409,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######DOM Specs/Ref & Polyfills
+######DOM 相關規格/參考資料與相容性套件 (DOM Specs/Ref & Polyfills)
 * [DOM Living Standard](http://dom.spec.whatwg.org/)
 * [DOM Parsing and Serialization Living Standard](http://domparsing.spec.whatwg.org/)
 * [DOM4](http://www.w3.org/TR/dom/)
@@ -421,7 +420,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Specs/Ref & Polyfills
+######CSS 相關規格/參考資料與相容性套件 (CSS Specs/Ref & Polyfills)
 * [CSS, from Mozilla](https://developer.mozilla.org/en-US/docs/CSS)
 * [CSS SPEC­I­FI­CA­TIONS, from W3C](http://www.w3.org/Style/CSS/current-work)
 * [http://cssvalues.com/](http://cssvalues.com/)
@@ -434,7 +433,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Generators
+######CSS 產生器 (CSS Generators)
 * [patternify](http://www.patternify.com/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 * [patternizer](http://patternizer.com/)
@@ -450,7 +449,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######CSS Style/Conventions Guides
+######CSS 編寫風格與慣例指引 (CSS Style/Conventions Guides)
 * [kss](https://github.com/kneath/kss#readme)
 * [SMACSS](http://smacss.com/)
 * [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#Declaration_order)
@@ -463,7 +462,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######JavaScript ES5 Specs/Ref & Polyfills
+######JavaScript ES5 相關規格/參考資料與相容性套件 (JavaScript ES5 Specs/Ref & Polyfills)
 * [ECMA-262-5 in detail](http://dmitrysoshnikov.com/ecmascript/es5-chapter-0-introduction/)
 * [ECMAScript Language Specification](http://ecma-international.org/ecma-262/5.1/)
 * [Annotated ECMAScript 5.1](http://es5.github.com/)
@@ -479,7 +478,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 
 ---
 
-######JavaScript ES6 Specs/Ref & Polyfills
+######JavaScript ES6 相關規格/參考資料與相容性套件 (JavaScript ES6 Specs/Ref & Polyfills)
 * [ES6 what can be shimmed and what not](https://gist.github.com/1665192)
 * [ECMAScript 6 compatibility table](http://kangax.github.com/es5-compat-table/es6/)
 * [Draft Specification for ES.next (Ecma-262 Edition 6)](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)
@@ -488,7 +487,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
  
 ---
 
-######JavaScript Style/Conventions Guides
+######JavaScript 編寫風格與慣例指引 (JavaScript Style/Conventions Guides)
 * [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 * [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
 * [idiomatic.js](https://github.com/rwldrn/idiomatic.js)
@@ -498,15 +497,15 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
  
 ---
 
-######General Front-end Practices/Conventions
+######一般前端開發實務與開發習慣 (General Front-end Practices/Conventions)
 * [isobar](http://isobar-idev.github.com/code-standards/)
 * [Being A Web Developer](http://www.yellowshoe.com.au/standards/)
 * [Front End Dev Guidelines](http://taitems.github.com/Front-End-Development-Guidelines/)
 * [HTML and CSS code guide](https://github.com/mdo/code-guide)
 
-##Performance
+##效能調校
 
-######Tools
+######相關工具
 
 * [Charles](http://www.charlesproxy.com/)
 * [webpagetest](http://www.webpagetest.org/)
@@ -517,7 +516,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 * [DOM Monster](http://mir.aculo.us/dom-monster/)
 * [ImageOptim](http://imageoptim.com/)
 
-######Rules/Practices
+######準則與實務
 
 * [Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/rules_intro)
 * [Best Practices for Speeding Up Your Web Site](http://developer.yahoo.com/performance/rules.html)
@@ -525,7 +524,7 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 * [Even Faster Web Sites](http://stevesouders.com/efws/)
 
 
-##Online REPL's/editors/IDE's
+##各式線上編輯器/開發工具 ([REPL](http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop "Read–eval–print loop"))
 
 ######JS REPL
 * [repl.it](http://repl.it/)
@@ -533,50 +532,50 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 * [codeboot.org](http://codeboot.org/)
 * [continuum](http://benvie.github.com/continuum/)
 
-######JS focused editors
+######JavaScript 線上編輯器 (JS focused editors)
 * [jsfiddle](http://jsfiddle.net/)
 * [jsbin](http://jsbin.com/)
 
-######Regular Expression editors
+######正規表示式編輯器 (Regular Expression editors)
 * [Scriptular](http://scriptular.com/)
 * [regexr](http://gskinner.com/RegExr/)
 * [refiddle](http://refiddle.com/)
 * [RegexPlanet](http://www.regexplanet.com/)
 
-######HTML/CSS editors
+######HTML/CSS 編輯器
 * [dabblet](http://dabblet.com/)
 * [cssdesk](http://cssdesk.com/)
 
-######HTML/CSS/JS editors
+######HTML/CSS/JS 編輯器
 * [tinker.io](https://tinker.io/)
 * [tinkerbin](http://tinkerbin.com/)
 * [Plunker](https://github.com/filearts/plunker)
 * [cssdeck](http://cssdeck.com/)
 * [codepen](http://codepen.io/)
 
-######Execute/Test live code
+######執行/測試代碼工具 (Execute/Test live code)
 * [runnable](http://runnable.com/)
 
-######Browser IDE's
+######雲端開發工具 (Browser IDE's)
 * [koding](https://koding.com/)
 * [cloud9 IDE](https://c9.io/)
 * [action.io](https://www.action.io)
 
-######JSON editors
+######JSON 編輯器
 * [jsoneditoronline.org](http://jsoneditoronline.org/)
 * [JSON Tinker](http://json.bubblemix.net/)
 * [JSONmat](http://jsonmate.com/)
 
-##Browser Security
+##瀏覽器安全性 (Browser Security)
 
 * [Browser Security Handbook](http://code.google.com/p/browsersec/wiki/Main)
 
-##Browser Hacks
+##各式 CSS/HTML Hacks 整理 (Browser Hacks)
 
 * [browserhacks.com](http://www.browserhacks.com/)
 
 
-##Backend services for frontend developers
+##給前端開發人員的後端服務 (Backend services for frontend developers)
 
 * [firebase](https://www.firebase.com/index.html)
 * [pusher](http://pusher.com/)
@@ -593,13 +592,13 @@ An opinionated list of tools for frontend (i.e. html, js, css) desktop/laptop (i
 * [hull.io](http://hull.io/)
 * [stormpath.com](http://stormpath.com/)
 
-##API tools
+##API 開發與測試工具
 
 * [apiary](http://apiary.io/)
 * [mocky.io](http://www.mocky.io/)
 * [FillText.com](http://www.filltext.com/)
 
-##JSON Query Tools
+##JSON 資料操作/查詢工具 (JSON Query Tools)
 
 * [TaffyDB](http://www.taffydb.com/)
 * [linq.js](http://linqjs.codeplex.com/)
