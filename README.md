@@ -355,6 +355,11 @@
 
 ##參考資料/教學手冊/相容性套件/程式產生器等相關工具 (Reference/Guide/Polyfill/Generator Tools)
 
+######文件翻閱工具
+* [DevDocs — API Documentation Reader](http://devdocs.io/)
+* [DocHub | Instant Documentation Search](http://dochub.io/)
+
+---
 
 ######瀏覽器相容性工具/文件 (Browser X Supports X)
 * [http://caniuse.com/](http://caniuse.com/)
@@ -422,7 +427,7 @@
 
 ######CSS 相關規格/參考資料與相容性套件 (CSS Specs/Ref & Polyfills)
 * [CSS, from Mozilla](https://developer.mozilla.org/en-US/docs/CSS)
-* [CSS SPEC­I­FI­CA­TIONS, from W3C](http://www.w3.org/Style/CSS/current-work)
+* [CSS SPEC-I-FI-CA-TIONS, from W3C](http://www.w3.org/Style/CSS/current-work)
 * [http://cssvalues.com/](http://cssvalues.com/)
 * [CSS contents and browser compatibility](http://www.quirksmode.org/css/contents.html)
 * [CSS Compatibility and Internet Explorer](http://msdn.microsoft.com/en-us/library/cc351024\(VS.85\).aspx)
@@ -494,7 +499,12 @@
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [jsbeautifier](http://jsbeautifier.org/)
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
- 
+
+---
+
+######JSON 產生器
+* [JSON Generator &ndash; tool for generating random JSON data](http://www.json-generator.com/)
+
 ---
 
 ######一般前端開發實務與開發習慣 (General Front-end Practices/Conventions)
@@ -541,6 +551,7 @@
 * [regexr](http://gskinner.com/RegExr/)
 * [refiddle](http://refiddle.com/)
 * [RegexPlanet](http://www.regexplanet.com/)
+* [Debuggex: The online visual regex tester. JavaScript, Python, and PCRE.](http://www.debuggex.com/)
 
 ######HTML/CSS 編輯器
 * [dabblet](http://dabblet.com/)
@@ -607,42 +618,7 @@
 * [json-query](https://github.com/mmckegg/json-query)
 * [SpahQL](http://danski.github.io/spahql/)
 
+##格式化工具
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [Online JavaScript beautifier](http://jsbeautifier.org/)
+* [CSS Beautifier](http://html.fwpolice.com/css/)
