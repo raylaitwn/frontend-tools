@@ -202,7 +202,7 @@
 
 ######測試框架 (Testing Frameworks)
 
-* [mocha](http://visionmedia.github.com/mocha/)
+* [mocha](http://mochajs.org/)
 * [buster.js](http://busterjs.org/)
 * [qunit](http://qunitjs.com/)
 * [jasmine](http://pivotal.github.com/jasmine/)
